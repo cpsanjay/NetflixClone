@@ -13,13 +13,13 @@ const Main = () => {
     });
   }, []);
 
-  const truncateString = (str) => {
-    if (str.length > 150) {
-      return str.slice(0, 150) + "...";
-    } else {
-      return str;
-    }
-  };
+  // const truncateString = (str) => {
+  //   if (str.length > 150) {
+  //     return str.slice(0, 150) + "...";
+  //   } else {
+  //     return str;
+  //   }
+  // };
 
   return (
     <div className=" w-full h-[550px] text-white">
